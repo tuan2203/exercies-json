@@ -44,7 +44,7 @@ const DATA ={
 //----------------------------------------------------------------------
 let message="";
 
-confirmJson = jsonData =>{
+const confirmJson = jsonData =>{
 
 !jsonData.hasOwnProperty("TripActivity")? message ="this is invalid " :""  ;
 !jsonData.TripActivity.type ==='array'? message ="this is invalid " :"";
